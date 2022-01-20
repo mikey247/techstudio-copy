@@ -181,7 +181,7 @@ button:hover {
 }
 .lowertext_a {
   margin-left: 30px;
-  width: 700px;
+  width: 600px;
 }
 .lowertext_a button {
   background-color: #007bff;
@@ -196,8 +196,9 @@ button:hover {
   border: none;
 }
 .lowertext_b {
-  margin-right: 30px;
-  width: 700px;
+  margin-right: 0px;
+  width: 600px;
+  margin-left: 30px;
 }
 .section6 {
   background-color: #f9fafa;
@@ -420,4 +421,68 @@ footer button {
 .social a {
   color: gray;
   margin-left: 10px;
+}
+@media (max-width: 425px) {
+  /* .leftheader{
+    width: 200px;
+    display: block;
+  } */
+  /* .options {
+    display: inline;
+    width: 100px;
+    border: 2px solid;
+  } */
+
+  /* .section1{
+   height: 100em;
+    display: block;
+    width: 1200px;
+    float: none;
+  } */
+
+  /* .section1 {
+    background-color: #0d283b;
+    background-image: url(/techstudioimages/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+  } */
+
+  .leftdiv1 {
+    /* float: left;
+    height: 80%;
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 100px; */
+    color: white;
+  }
+
+  .rightdiv1 {
+    /* float: left;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 80px;
+    height: 100px;
+    display: block;
+    background-color: white; */
+  }
+
+  .leftheader {
+    display: block;
+    font-size: 15px;
+  }
+
+  .options {
+    margin-left: 7px;
+    margin-top: 3px;
+
+  }
+
+  .miky{
+    position: relative;
+    left: 40px;
+    bottom: 40px;
+  }
+  
 }
